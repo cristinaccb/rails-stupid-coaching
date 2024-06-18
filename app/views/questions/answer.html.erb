@@ -1,0 +1,8 @@
+
+<div class="container mt-5">
+  <h1>Your Question:</h1>
+  <p class="lead"><%= params[:question] %></p>
+  <h2>Coach's Response:</h2>
+  <p> class="alert alert-primary"><%= @answer %></p>
+  <%= link_to 'Ask another question', ask_path, class: 'btn btn-link' %>
+</div>

@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+
+ /* Custom styles for Stupid Coaching app */
+body {
+  background-color: #f8f9fa;
+  color: #333;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  margin-top: 20px;
+}
+
+button.btn {
+  background-color: #007bff;
+  color: white;
+}
